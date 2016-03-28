@@ -10,5 +10,11 @@ package lab1_poo_1s2016;
  * @author keilor
  */
 public class Biblioteca {
-    
+    public static void main(String[] args) {
+        
+        Libro lib = new Libro("Veronica decide morir","Gabriel Garcia Marquez","Vsg34");
+        lib.agregarCapitulo("Primer Cap",5);
+        lib.agregarCapitulo("Segundo Cap",28);
+        System.out.println(lib.toString());
+    }
 }

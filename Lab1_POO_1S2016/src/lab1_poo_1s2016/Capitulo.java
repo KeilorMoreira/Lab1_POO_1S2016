@@ -10,5 +10,33 @@ package lab1_poo_1s2016;
  * @author keilor
  */
 public class Capitulo {
+    private String titulo;
+    private int cantPag;
+    
+    public Capitulo(String titulo, int cantPag){
+        this.titulo = titulo;
+        this.cantPag = cantPag;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public int getCantPag() {
+        return cantPag;
+    }
+
+    public void setCantPag(int cantPag) {
+        this.cantPag = cantPag;
+    }
+
+    @Override
+    public String toString() {
+        return "\ttítulo= " + titulo + ", Páginas= " + cantPag +"\n";
+    }
     
 }
