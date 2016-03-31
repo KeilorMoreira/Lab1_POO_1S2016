@@ -7,7 +7,7 @@ package lab1_poo_1s2016;
 
 /**
  *
- * @author keilor
+ * @author keilor Moreira Alvarado
  */
 public class Biblioteca {
     public static void main(String[] args) {

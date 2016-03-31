@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author keilor
+ * @author keilor Moreira Alvarado
  */
 public class Libro {
     private String titulo;
